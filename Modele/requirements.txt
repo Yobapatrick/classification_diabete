@@ -1,8 +1,6 @@
-Flask
-gunicorn
+matplotlib
+seaborn
 numpy
-pillow
-pydantic
 scikit-learn
 joblib
 pandas
