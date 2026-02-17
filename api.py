@@ -9,13 +9,13 @@ modele = joblib.load('Modele/random_forest_model.pkl')
 
 #Définition du schéma des données d'entrée avecPydantic
 class DonneesEntree(BaseModel):
-    Pregnancies: float  
-    Glucose: float  
-    BloodPressure: float  
-    SkinThickness: float  
-    Insulin: float  
-    BMI: float  
-    DiabetesPedigreeFunction: float  
+    Grossesses: float  
+    ConcentrationGlucose: float  
+    PressionArterielle: float  
+    EpaisseurPli: float  
+    TauxInsuline: float  
+    IndiceMasse: float  
+    FonctionPedigree: float  
     Age: float  
 
 #Création de l'instance de l'application flask
