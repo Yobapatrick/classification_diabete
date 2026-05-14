@@ -239,7 +239,7 @@ diabetes-classification/
 ├── tests/
 │   └── test_api.py           # tests d'intégration de l'API
 │
-└── assets/                   # captures, GIF, diagrammes
+
 ```
 
 > 🔧 **Note d'évolution :** la structure historique du repo (`Modele/`, `Test/`, `api.py` à la racine) est en cours de refactorisation vers l'arborescence ci-dessus pour aligner le projet sur les standards open-source. Voir la [Roadmap](#-roadmap).
