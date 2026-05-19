@@ -83,7 +83,7 @@ Le défi technique réel ici n'est pas l'algorithme — un Random Forest sur 8 v
                     └──────────────────────────┘
 ```
 
-**Flux de données :** le notebook entraîne et exporte le modèle → l'API Flask le charge au démarrage et expose un endpoint `/predire` → Pydantic valide chaque requête entrante → le modèle renvoie une classe **et** une probabilité → l'interface Streamlit consomme l'API pour des prédictions par lot.
+**Flux de données :** le notebook entraîne puis exporte le modèle → l'API Flask le charge au démarrage et expose un endpoint `/predire` → Pydantic valide chaque requête entrante → le modèle renvoie une classe **et** une probabilité → l'interface Streamlit consomme l'API pour des prédictions par lot.
 
 ---
 
